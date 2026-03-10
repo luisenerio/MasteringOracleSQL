@@ -184,4 +184,4 @@ WHERE co.cancelled_dt is NULL;
 
 UPDATE employee
 SET salary = salary*1.10
-WHERE salary<40000;
+WHERE salary<40000
