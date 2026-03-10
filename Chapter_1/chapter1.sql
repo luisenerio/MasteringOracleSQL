@@ -177,3 +177,11 @@ from cust_order co
 WHERE co.cancelled_dt is NULL;
 -----
 
+
+
+
+--- UPDATE STATEMENT
+
+UPDATE employee
+SET salary = salary*1.10
+WHERE salary<40000;
